@@ -125,7 +125,7 @@ body {
     body {
         background: linear-gradient(hsla(0, 100%, 74%, 0.5),
                 hsla(0, 100%, 74%, 0.5)),
-            url('/images/bg-intro-desktop.png') no-repeat center center / cover;
+            url('images/bg-intro-desktop.png') no-repeat center center / cover;
     }
 
     .container {
