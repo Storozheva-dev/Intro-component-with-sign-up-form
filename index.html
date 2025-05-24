@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Intro component with sign up form</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="intro">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <section class="form-section">
+        <div class="trial-banner">
+          <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+        </div>
+        <form class="signup-form">
+          <div class="form-group">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                placeholder="First Name"
+                autocomplete="off"
+                required
+              />
+              <svg
+                class="error-icon"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+            </div>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-group">
+            <div class="input-wrapper">
+              <input
+                type="text"
+                placeholder="Last Name"
+                autocomplete="off"
+                required
+              />
+              <svg
+                class="error-icon"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+            </div>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-group">
+            <div class="input-wrapper">
+              <input type="email" placeholder="Email Address" required />
+              <svg
+                class="error-icon"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+            </div>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-group">
+            <div class="input-wrapper">
+              <input
+                type="password"
+                placeholder="Password"
+                autocomplete="new-password"
+                required
+              />
+              <svg
+                class="error-icon"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="none" fill-rule="evenodd">
+                  <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                  <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                  <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+                </g>
+              </svg>
+            </div>
+            <small class="error-message"></small>
+          </div>
+          <button type="submit">Claim your free trial</button>
+          <p class="terms">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </form>
+      </section>
+    </main>
+    <script src="/sign-up-form.js"></script>
+  </body>
+</html>
